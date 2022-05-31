@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.select-form-wrapper{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: auto;
+    height: 100vh;
+}
+.select-form-wrapper p{
+    text-align: center;
+    font-size: 30px;
+    color: #000249;
+    margin-top: 20%
+}
+.select-form-wrapper .buttons{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* border: 1px solid red; */
+    margin: auto;
+    
+}
+.buttons button{
+    height: 70px;
+    border-radius: 7px;
+    width: 40%;
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: #92b8f1;
+    margin: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.buttons button:hover{
+    background-color: #3b5680;
+      transition: 0.1s ease-in-out;
+      border-bottom: 3px solid #0e1d35;
+      border-right: 3px solid #16386d;
+}
+
+
+.form-wrapper{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    height: auto;
+}
+.form-wrapper form{
+    /* border: 1px solid red; */
+    display: flex;
+    height: auto;
+}
+
+.form-wrapper form div{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    
+}
+
+.form-content{
+    padding-top: 30px;
+    /* margin: 100px 0 0 100px; */
+}
+.form-content p{
+    font-size: 19px;
+    color: #000249;
+}
+.form-content input{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #dae5fd;
+    /* box-shadow: 1px 1px rgb  (134, 134, 134); */
+        /* <link rel="stylesheet" href="../Footer/header.css"> */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.form-content-submit{
+    
+}
+.form-content-submit input{
+    height: 50px;
+    border-radius: 7px;
+    width: 40%;
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: #7caaef;
+}
+.form-content-submit input:hover{
+    background-color: #3b5680;
+      transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,145 @@
+.first{
+    
+    margin-left: 5vw;
+    margin-top: 20vh;
+    display: flex;
+}
+.text1{
+    font-size: 18px;
+    width: 38vw;
+    height: 30vh;
+    margin-left: 265px;
+}
+
+.second{
+    margin-left: 5vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+.text2{
+    font-size: 18px;
+    width: 35vw;
+    height: 30vh;
+}
+.img2{
+    margin-left: 20%;
+}
+
+.third{
+    margin-left: 5vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+.text3{
+    font-size: 18px;
+    width: 38vw;
+    height: 30vh;
+    margin-left: 18%;
+}
+
+.fourth{
+    margin-left: 5vw;
+    margin-top: 20vh;
+    display: flex;
+}
+
+.text4{
+    
+    font-size: 18px;
+    width: 35vw;
+    height: 30vh;
+}
+
+.img4{
+    margin-left: 20%;
+}
+footer{
+    margin-top: 10%;
+    display: flex;
+    background-color: #212258;
+    height: 100px;
+}
+.logo{
+    margin-top: 4%;
+    margin-left: 1%;
+    width: 25px;
+    height: 25px;
+}
+
+#fb{
+    margin-left: 5%;
+}
+@media (max-width: 800px) {
+    .first{
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .text1{
+        margin-top: 5vh;
+        margin-left: 0;
+
+        width: 70vw;
+        height: 40vh;
+    }
+    
+    .second{
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .text2{
+        order: 2;
+        margin-top: 5vh;
+        margin-left: 0;
+        margin-right: 5%;
+        width: 70vw;
+        height: 40vh;
+    }
+    .img2{
+        
+        margin-left: -1;
+    }
+
+    .third{
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .text3{
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 70vw;
+        height: 40vh;
+    }
+    
+    .fourth{
+ 
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .text4{
+        order: 2;
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 70vw;
+        height: 40vh;
+    }
+    .img4{
+        
+        margin-left: 0;
+    }
+    footer{
+        margin-top: 10%;
+    }
+    .logo{
+        margin-top: 12%;
+        margin-left: 2%;
+    }
+    #fb{
+        margin-left: 14%;
+    }
+}

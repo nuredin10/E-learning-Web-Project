@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.login-wrapper{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.login-image-wrapper{
+    width: 50%;
+    height: inherit;   
+}
+
+.login-image-wrapper img{
+    width: 100%;
+    height: 60%;
+    margin-top: 15%;
+}
+.login-form-wrapper{
+    width: 50%;
+    height: inherit;
+    margin-top: 4%;
+}
+.login-form-wrapper h1{
+    font-size: 50px;
+    text-align: center;
+    color: #1f215f;
+}
+.login-form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.login-form label{
+    margin: 3% 0 3% 0;
+    font-size: 21px;
+    color: #1f215f;
+}
+.login-form input{
+    /* width: 80%; */
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e6edf6;
+    /* color: white; */
+    /* border: 1px solid red */
+}
+#submit-login{
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    border: 8px;
+    color: white;
+    font-size: 20px;
+    background-color: #7caaef;
+    transition: 0.3s ease-in;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#submit-login:hover{
+    background-color: #3b5680;
+    transition: 0.3s ease-in-out;
+}
+.login-form div{
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.login-form a{
+    margin-left: auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0b18ff;
+    
+}
+.login-form a:hover{
+    text-decoration: underline;
+}
+.login-form p{
+    margin-top: 10px;
+    font-size: 19px;
+    color: #1f215f;
+}
+@media (max-width: 800px) {
+    .login-image-wrapper{
+        display: none;
+    }
+    .login-form-wrapper{
+        width: 100%;
+    }
+    .login-form{
+        width: 70%;
+    }
+}
+.login-form i{
+    color: #1f2044;
+    position: relative;
+    left: 90%;
+    top: -20px;
+    cursor: pointer;
+}
+.login-form i:active::before{
+    color: #333;
+    content: "\f070";
+}
+.incorrect{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(218, 162, 173);
+    /* border: 1px solid red; */
+    border-radius: 7px ;
+    display: none;
+}

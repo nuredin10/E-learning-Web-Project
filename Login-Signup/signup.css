@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.signup-wrapper{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.signup-image-wrapper{
+    width: 50%;
+    height: inherit;   
+}
+
+.signup-image-wrapper img{
+    width: 100%;
+    height: 60%;
+    margin-top: 15%;
+}
+.signup-form-wrapper{
+    width: 50%;
+    height: inherit;
+    margin-top: 4%;
+}
+.signup-form-wrapper h1{
+    font-size: 50px;
+    text-align: center;
+    color: #1f215f;
+}
+.signup-form{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.signup-form label{
+    margin: 3% 0 3% 0;
+    font-size: 21px;
+    color: #1f215f;
+}
+.signup-form input{
+    /* width: 80%; */
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e6edf6;
+    /* color: white; */
+    /* border: 1px solid red */
+}
+#submit-signup{
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    border: 8px;
+    color: white;
+    font-size: 20px;
+    background-color: #7caaef;
+    transition: 0.3s ease-in;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#submit-signup:hover{
+    background-color: #3b5680;
+    transition: 0.3s ease-in-out;
+}
+.signup-form div{
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.signup-form a{
+    /* margin-left: auto; */
+    color: #0b18ff;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.signup-form a:hover{
+    text-decoration: underline;
+}
+.signup-form p{
+    margin-top: 10px;
+    font-size: 19px;
+    color: #1f215f;
+}
+@media (max-width: 800px) {
+    .signup-image-wrapper{
+        display: none;
+    }
+    .signup-form-wrapper{
+        width: 100%;
+    }
+    .signup-form{
+        width: 70%;
+    }
+}
+.signup-form i{
+    color: #1f2044;
+    position: relative;
+    left: 90%;
+    top: -20px;
+    cursor: pointer;
+}
+.signup-form i:active::before{
+    color: #333;
+    content: "\f070";
+}
+.incorrect{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(218, 162, 173);
+    /* border: 1px solid red; */
+    border-radius: 7px ;
+    display: none;
+}
+
